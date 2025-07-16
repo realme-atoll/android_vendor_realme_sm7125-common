@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libqsee_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libqsee_keybox_ca.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
+        vendor/realme/sm7125-common/proprietary/odm/lib64/libcrypto_realme_shim.so:$(TARGET_COPY_OUT_ODM)/lib64/libcrypto_realme_shim.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/oplus_btaudio_offload_if.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus_btaudio_offload_if.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/soundfx/libhwdap.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libhwdap.so \
