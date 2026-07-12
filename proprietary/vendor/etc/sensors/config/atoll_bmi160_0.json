@@ -27,8 +27,8 @@
       "owner": "bmi160",
       ".config":{
         "owner": "bmi160",
-        "is_dri":{ "type": "int", "ver": "0",
-          "data": "1"
+        "is_dri":{ "type": "int", "ver": "1",
+          "data": "0"
         },
         "hw_id":{ "type": "int", "ver": "0",
           "data": "0"
