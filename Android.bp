@@ -276,16 +276,6 @@ prebuilt_etc_xml {
 	device_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "manifest_dax_dolby",
-	owner: "realme",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_dax_dolby.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	device_specific: true,
-}
-
-
 cc_prebuilt_library_shared {
 	name: "libqcodec2",
 	owner: "realme",
