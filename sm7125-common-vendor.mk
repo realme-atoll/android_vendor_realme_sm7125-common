@@ -9,14 +9,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/realme/sm7125-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/sm7125-common/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
-    vendor/realme/sm7125-common/proprietary/odm/bin/hw/vendor.dolby.hardware.dms@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.dolby.hardware.dms@2.0-service \
-    vendor/realme/sm7125-common/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
     vendor/realme/sm7125-common/proprietary/odm/etc/gps.conf:$(TARGET_COPY_OUT_ODM)/etc/gps.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/init.SN100x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.SN100x.nfc.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/init.network.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.network.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
-    vendor/realme/sm7125-common/proprietary/odm/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
@@ -24,27 +21,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/sm7125-common/proprietary/odm/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_ODM)/lib/libdapparamstorage.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/libdlbdsservice.so:$(TARGET_COPY_OUT_ODM)/lib/libdlbdsservice.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/libqsee_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libqsee_keybox_ca.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib/libqtigef.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefright_soft_ac4dec.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefright_soft_ddpdec.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefrightdolby.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/oplus_btaudio_offload_if.so:$(TARGET_COPY_OUT_ODM)/lib/oplus_btaudio_offload_if.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/soundfx/libhwdap.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhwdap.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libswdap.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby.hardware.dms@2.0-impl.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby.hardware.dms@2.0.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_ODM)/lib64/libdapparamstorage.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_ODM)/lib64/libdlbdsservice.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib64/libqtigef.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so \
@@ -53,10 +39,6 @@ PRODUCT_COPY_FILES += \
         vendor/realme/sm7125-common/proprietary/odm/lib64/libcrypto_realme_shim.so:$(TARGET_COPY_OUT_ODM)/lib64/libcrypto_realme_shim.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/oplus_btaudio_offload_if.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus_btaudio_offload_if.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib64/soundfx/libhwdap.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libhwdap.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libswdap.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
-    vendor/realme/sm7125-common/proprietary/odm/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby.hardware.dms@2.0.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/vendor.oplus.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.bluetooth_audio@1.0.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
@@ -790,6 +772,17 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/libdlbpreg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbpreg.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdlbvol.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswvqe.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libdlbvol.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libswdap.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libswgamedap.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libswvqe.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/unnhal-acc-hta.so:$(TARGET_COPY_OUT_VENDOR)/lib/unnhal-acc-hta.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
@@ -1285,5 +1278,4 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.servicetracker@1.2-service \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.media.c2@1.0-service \
-    manifest_dax_dolby
+    vendor.qti.media.c2@1.0-service
