@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter RMX2170 RMX2061,$(TARGET_DEVICE)),)
+ifneq ($(filter sm7125 RMX2061 RMX2170 RMX3081,$(TARGET_DEVICE)),)
 
 endif
