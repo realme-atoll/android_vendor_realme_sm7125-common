@@ -294,7 +294,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libswdap",
+	name: "libswdap_32",
+	stem: "libswdap",
 	owner: "realme",
 	strip: {
 		none: true,
